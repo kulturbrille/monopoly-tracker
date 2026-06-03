@@ -16,6 +16,16 @@ A mobile-first web app for tracking cash, properties, rent and game progress in 
 - Undo the latest money transaction
 - Export and import game data as JSON
 - Store game data locally in the browser
+- Switch between board presets
+
+## Board presets
+
+The app currently includes:
+
+1. **Generic Classic** — a non-branded property board.
+2. **Kanto Region** — a fan-made Kanto-inspired board using generic Monopoly-style values.
+
+Changing the board preset resets property ownership, houses and mortgages, but keeps players and cash.
 
 ## How it works
 
@@ -47,7 +57,7 @@ Useful next features:
 
 1. Buy property flow: select player, select property, deduct cost and assign ownership.
 2. Trade builder for property and cash swaps.
-3. Custom board setup.
+3. Custom board setup and board import/export.
 4. Card/event shortcuts.
 5. Supabase cloud sync for multi-device games.
 6. Player join links or QR codes.
